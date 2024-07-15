@@ -1,0 +1,12 @@
+
+Dear saeed,
+
+The prices of different flights from Delhi to Mumbai with Economy class and zero stops are as follows:
+
+
+* Airline "SpiceJet" from 2621.0 up to 3830.8 .
+* Airline "AirAsia" from 2410.0 up to 3396.24 .
+* Airline "Vistara" from 3100.0 up to 3736.71 .
+* Airline "GO_FIRST" from 2410.0 up to 3177.84 .
+* Airline "Indigo" from 3001.0 up to 3628.14 .
+* Airline "Air_India" from 2476.0 up to 3446.44 .

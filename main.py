@@ -3,7 +3,7 @@ import pandas as pd
 from tkinter import *
 from tkinter import messagebox
 from fpdf import FPDF
-from requests import *
+
 
 class Form:
     """
@@ -71,7 +71,7 @@ class Form:
         
 
 class Data:
-
+    """ It is filtering data Based on Given entries of user"""
     def __init__(self, user_selection) -> None:
         self.data_path = './Data/Clean_Dataset.csv'
         self.data = pd.read_csv(self.data_path)
@@ -94,6 +94,7 @@ class Data:
 
 
 class Report():
+    """ Creating a report based on filterd data and storing it as a pdf file """
 
     def __init__(self, selected_data) -> None:
 
@@ -104,6 +105,7 @@ class Report():
         
 
     def calculator(self):
+        
 
         self.unique_airlines = pd.unique(self.filtered_data['airline'])
 
@@ -159,7 +161,7 @@ The prices of different flights from {user_input[0]} to {user_input[1]} with {us
         
         pdf.output(f"{self.text_file_name}.pdf") 
 
-    def uploader(self):
+
         
 
 

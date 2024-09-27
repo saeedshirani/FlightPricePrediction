@@ -1,0 +1,8 @@
+
+Dear Saeed,
+
+The prices of different flights from Mumbai to Delhi with Business class and zero stops are as follows:
+
+
+* Airline "Air_India" from 22140.0 up to 22538.6 .
+* Airline "Vistara" from 33801.05 up to 34460.0 .

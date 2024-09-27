@@ -73,7 +73,7 @@ class Form:
 class Data:
     """ It is filtering data Based on Given entries of user"""
     def __init__(self, user_selection) -> None:
-        self.data_path = './Data/Clean_Dataset.csv'
+        self.data_path = './1.Data/Clean_Dataset.csv'
         self.data = pd.read_csv(self.data_path)
         self.user_selection = user_selection
         self.filtered_data = []
@@ -132,8 +132,7 @@ class Report():
 
 
     def text_generator(self, user_input):
-        
-
+ 
         self.text_file_name = f'{user_input[4]}-{user_input[0]}-{user_input[1]}-{user_input[2]}-{user_input[3]}.txt'
         text_file = open(f'{user_input[4]}-{user_input[0]}-{user_input[1]}-{user_input[2]}-{user_input[3]}.txt', "w")
         text_file.write(f"""
@@ -146,8 +145,6 @@ The prices of different flights from {user_input[0]} to {user_input[1]} with {us
     
             text_file.write(f'* Airline "{airliner}" from {self.conditional_dict[airliner][0]} up to {self.conditional_dict[airliner][1]} .\n')
         text_file.close()
-
-
 
 
     def pdf_generator(self):
